@@ -7235,4 +7235,6 @@ const animals = [
       "imageSrc": "false",
       "shortDesc": "The Ua Pou monarch (Pomarea mira) is a species of bird in the family Monarchidae, endemic to the French Polynesian island of Ua Pou. Its natural habitats are subtropical or tropical moist lowland forest, subtropical or tropical moist montane forest, and heavily degraded former forest."
     }
-  ]
+  ];
+
+  export { animals };
