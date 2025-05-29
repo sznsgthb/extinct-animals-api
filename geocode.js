@@ -2,7 +2,7 @@ import axios from 'axios';
 import { animals } from './animals.js';
 import fs from 'fs';
 
-const apiKey = 'AIzaSyC-2Bp_8USjVDsN0BLd-IRPJFd-BD4AyZ8';
+const apiKey = 'API_KEY'; //SH: store apikey in environmental variable
 const endpoint = 'https://maps.googleapis.com/maps/api/geocode/json';
 
 async function geocodeLocation(location) {
